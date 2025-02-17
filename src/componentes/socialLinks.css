@@ -1,5 +1,6 @@
 .social-links{
   gap: 0.5rem;
+  padding: 0.5rem;
   list-style: none;
   background-color: #1c1c1c;
   border-radius: 5rem;
