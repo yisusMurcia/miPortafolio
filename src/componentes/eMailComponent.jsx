@@ -6,7 +6,7 @@ const EMailComponent = () => {
             <a href="mailto:yisusMurci@gmail.com"><i className="fa-regular fa-envelope icon"></i></a>
             <p>yisusmurci@gmail.com</p>
             <button className='icon-and-label'>
-                <i class="fa-solid fa-copy"></i>
+                <i className="fa-solid fa-copy"></i>
                 Copiar
             </button>
         </nav>
