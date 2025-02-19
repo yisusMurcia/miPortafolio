@@ -84,7 +84,6 @@ button:active{
 
 .project-card{
   display: grid;
-  background-color: #1a1a1a;
   grid-template-columns: 1fr 1fr;
   border-radius: 1rem;
   padding: 0.4rem;
