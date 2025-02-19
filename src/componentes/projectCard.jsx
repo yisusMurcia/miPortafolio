@@ -1,8 +1,11 @@
 import React from 'react';
 
-const ProjectCard = (projectObj) => {
+const ProjectCard = ({projectObj}) => {
     return (
-        <div>
+        <div className='project-card'>
+            <img src={"public/projects-img/"+ projectObj.img} alt={projectObj.titulo} />
+            <h3>{projectObj.titulo}</h3>
+            <p>{projectObj.descripcion}</p>
         </div>
     );
 }

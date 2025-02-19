@@ -2,9 +2,11 @@ import { useState, useEffect } from 'react';
 import Header from './componentes/Header';
 import './App.css';
 import getProyects from './api/getProyects';
+import ProjectsSection from './componentes/projectsSection';
+import ProjectCard from './componentes/projectCard';
 
 function App() {
-  const [proyects, setProjects] = useState([]);
+  const [projects, setProjects] = useState(null);
   //Load proyects
   async function loadProjects() {
     try {
@@ -23,6 +25,7 @@ function App() {
   return (
     <>
       <Header />
+      {projects != null? <ProjectsSection projects={projects} />:<p>Cargando proyectos...</p>}
     </>
   )
 }

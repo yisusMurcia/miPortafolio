@@ -12,9 +12,20 @@ header{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+
+header, section{
   background-color: #0f0f0f;
   margin: 0.2rem;
   border-radius: 0.4rem;
+}
+
+section{
+  padding: 0.5rem;
+}
+
+h2{
+  text-align: center;
 }
 
 a{
@@ -61,4 +72,38 @@ button:active{
   align-items: center;
   gap: 0.2rem;
   font-size: 0.8rem;
+}
+
+.projects-section{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 0.8rem;
+  align-content: center;
+  justify-content: center;
+}
+
+.project-card{
+  display: grid;
+  background-color: #1a1a1a;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1rem;
+  padding: 0.4rem;
+  align-items: center;
+}
+
+.project-card img{
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.project-card  p, h3{
+  margin: 0.7rem;
+}
+
+.project-card p{
+  font-size: 0.9rem;
+}
+
+.project-card:hover{
+  background-color: #1c1c1cb0;
 }
