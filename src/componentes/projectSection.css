@@ -53,7 +53,7 @@ section > .techs-div{
     border-radius: 2rem;
 }
 
-.icon-and-label:hover *{
+section .icon-and-label:hover *{
     color: #383838 !important;
     background-color: #b8b8b8;
 }
