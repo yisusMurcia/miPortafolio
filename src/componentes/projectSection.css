@@ -24,6 +24,9 @@
     margin: 0.7rem;
 }
   
+.project-card h3{
+    text-align: center;
+}
 .project-card p{
     font-size: 0.9rem;
 }
