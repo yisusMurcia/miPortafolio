@@ -3,7 +3,6 @@ import Header from './componentes/Header';
 import './App.css';
 import getProyects from './api/getProyects';
 import ProjectsSection from './componentes/projectsSection';
-import ProjectCard from './componentes/projectCard';
 
 function App() {
   const [projects, setProjects] = useState(null);
@@ -15,7 +14,7 @@ function App() {
       console.error("Error en loadProjects:", error);
       return null;
     }
-}
+  }
 
 
   useEffect(() => {
@@ -25,7 +24,8 @@ function App() {
   return (
     <>
       <Header />
-      {projects != null? <ProjectsSection projects={projects} />:<p>Cargando proyectos...</p>}
+      {projects != null? <ProjectsSection projects={projects} />: <p>Cargando proyectos...</p>} {//Check if projects are loaded
+      }
     </>
   )
 }

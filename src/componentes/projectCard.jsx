@@ -1,4 +1,5 @@
 import React from 'react';
+import TechComponent from './techComponent';
 
 const ProjectCard = ({projectObj}) => {
     return (
@@ -6,6 +7,7 @@ const ProjectCard = ({projectObj}) => {
             <img src={projectObj?.img? "public/projects-img/"+ projectObj.img: "public/projects-img/default.jpeg"} alt={projectObj.titulo} />
             <h3>{projectObj.titulo}</h3>
             <p>{projectObj.descripcion}</p>
+            <TechComponent techs={projectObj.tecnologias}/>
         </div>
     );
 }
