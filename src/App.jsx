@@ -3,6 +3,7 @@ import Header from './componentes/Header';
 import './App.css';
 import getProyects from './api/getProyects';
 import ProjectsSection from './componentes/projectsSection';
+import AboutMeSection from './componentes/AboutMeSection';
 
 function App() {
   const [projects, setProjects] = useState(null);
@@ -26,6 +27,7 @@ function App() {
       <Header />
       {projects != null? <ProjectsSection projects={projects} />: <p>Cargando proyectos...</p>} {//Check if projects are loaded
       }
+      <AboutMeSection />
     </>
   )
 }

@@ -16,7 +16,7 @@ header{
 
 header, section{
   background-color: #0f0f0f;
-  margin: 0.2rem;
+  margin: 1rem;
   border-radius: 0.8rem;
 }
 
@@ -65,6 +65,11 @@ button:active{
   color: #0f0f0f;
 }
 
+img{
+  width: 100%;
+  border-radius: 2rem;
+}
+
 .icon-and-label{
   display: flex;
   flex-direction: column;
@@ -72,4 +77,14 @@ button:active{
   align-items: center;
   gap: 0.2rem;
   font-size: 0.8rem;
+}
+
+.about-me-container{
+  display: grid;
+  padding: 0.4rem;
+  border-radius: 0.4rem;
+  grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
+  gap: 0.8rem;
+  align-items: center;
+  justify-items: center;
 }
