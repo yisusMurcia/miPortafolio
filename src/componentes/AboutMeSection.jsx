@@ -14,7 +14,7 @@ const AboutMeSection = () => {
                         <li>Organización bajo presión</li>
                     </ul>            
                 </div>
-                <img src="public/yisus.jpg" alt="yisus pic"/>
+                <img src="miPortafolio/public/yisus.jpg" alt="yisus pic"/>
                 <p>
                 Soy un apasionado y dedicado a la programación, siempre buscando ser la mejor versión de mí mismo.
                 Mi interés se extiende a la ciencia, en particular al espacio y la física cuántica.
