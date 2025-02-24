@@ -1,6 +1,6 @@
 export default async function getProyects() {//Hscer el fetch de los proyectos
     try {
-        const res = await fetch("miPortafolio/src/assets/projects.json");
+        const res = await fetch("projects.json");
         if (!res.ok) {
             throw new Error("Error al cargar los datos");
         }
