@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutMeSection.css';
 
 const AboutMeSection = () => {
     return (
@@ -25,6 +26,13 @@ const AboutMeSection = () => {
                 transformar mi pasión por la programación en una carrera profesional dinámica y emocionante.
                 </p>
             </aside>
+
+            <span className="more-info">
+            Conoce más de mí:
+            <a href="https://bento.me/yisusm">
+                <i class="fa-solid fa-address-card icon"></i>
+            </a>
+            </span>
         </section>
     );
 }

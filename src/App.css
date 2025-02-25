@@ -78,13 +78,3 @@ img{
   gap: 0.2rem;
   font-size: 0.8rem;
 }
-
-.about-me-container{
-  display: grid;
-  padding: 0.4rem;
-  border-radius: 0.4rem;
-  grid-template-columns: repeat(auto-fill, minmax(30vw, 1fr));
-  gap: 0.8rem;
-  align-items: center;
-  justify-items: center;
-}
