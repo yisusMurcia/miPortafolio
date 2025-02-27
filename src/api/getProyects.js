@@ -1,4 +1,4 @@
-export default async function getProyects() {//Hscer el fetch de los proyectos
+export default async function getProyects() {//Hacer el fetch de los proyectos
     try {
         const res = await fetch("projects.json");
         if (!res.ok) {

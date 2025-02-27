@@ -1,8 +1,8 @@
 .projects-section{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 0.8rem;
-    padding: -0.5rem;
+    padding: 0.4rem;
+    gap: 0.4rem;
     align-content: center;
     justify-content: center;
 }
@@ -11,17 +11,18 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
-    padding: 0.4rem;
+    padding: 0.3rem;
     align-items: center;
+    justify-content: center;
 }
   
 .project-card img{
-    width: 100%;
+    width: 80%;
     border-radius: 0.8rem;
 }
   
 .project-card  p, h3{
-    margin: 0.7rem;
+    margin: 0.4rem;
 }
   
 .project-card h3{

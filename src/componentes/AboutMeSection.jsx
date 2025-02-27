@@ -25,14 +25,13 @@ const AboutMeSection = () => {
                 optimizándolas a medida que avanzo. Mi mayor miedo es caer en una vida monótona y aburrida, lo que me motiva a
                 transformar mi pasión por la programación en una carrera profesional dinámica y emocionante.
                 </p>
+                <span className="more-info">
+                Conoce más de mí:
+                <a href="https://bento.me/yisusm">
+                    <i class="fa-solid fa-address-card icon"></i>
+                </a>
+                </span>
             </aside>
-
-            <span className="more-info">
-            Conoce más de mí:
-            <a href="https://bento.me/yisusm">
-                <i class="fa-solid fa-address-card icon"></i>
-            </a>
-            </span>
         </section>
     );
 }
