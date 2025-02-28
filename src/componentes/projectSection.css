@@ -1,9 +1,8 @@
 .projects-section{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    padding: 0.4rem;
-    gap: 0.4rem;
-    align-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(1fr, 600px));
+    row-gap: 0.4rem;
+    align-items: center;
     justify-content: center;
 }
   
@@ -11,18 +10,15 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 1rem;
-    padding: 0.3rem;
+    padding: 0.4rem;
     align-items: center;
     justify-content: center;
 }
   
 .project-card img{
     width: 80%;
+    align-self: center;
     border-radius: 0.8rem;
-}
-  
-.project-card  p, h3{
-    margin: 0.4rem;
 }
   
 .project-card h3{
