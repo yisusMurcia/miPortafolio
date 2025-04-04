@@ -1,6 +1,12 @@
 {
     "proyectos": [
         {
+            "titulo": "Matrices y vectores",
+            "descripcion": "Un paquete para crear e implementar matrices y vectores, además de realizar operaciones con ellos",
+            "enlace": "https://github.com/yisusMurcia/matricesYVectores",
+            "tecnologias": ["Java"]
+        },
+        {
             "titulo": "Visor de imagen",
             "descripcion": "Abre imagenes y modificalas a tu gusto",
             "enlace": "https://github.com/yisusMurcia/visor-de-imagen",
