@@ -1,6 +1,13 @@
 {
     "proyectos": [
         {
+            "titulo": "Recetas",
+            "descripcion": "Un programa para subir, visualizar y compartir recetas",
+            "enlace": "https://github.com/yisusMurcia/recipes",
+            "tecnologias": ["Java"],
+            "img": "recipes.png"
+        },
+        {
             "titulo": "Matrices y vectores",
             "descripcion": "Un paquete para crear e implementar matrices y vectores, además de realizar operaciones con ellos",
             "enlace": "https://github.com/yisusMurcia/matricesYVectores",
