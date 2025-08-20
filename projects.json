@@ -3,7 +3,7 @@
         {
             "titulo": "Recetas",
             "descripcion": "Un programa para subir, visualizar y compartir recetas",
-            "enlace": "https://github.com/yisusMurcia/recipes",
+            "enlace": {"frontend": "https://github.com/yisusMurcia/recipes", "backend": ""},
             "tecnologias": ["Java"],
             "img": "recipes.png"
         },
