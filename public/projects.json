@@ -2,8 +2,8 @@
     "proyectos": [
         {
             "titulo": "Recetas",
-            "descripcion": "Un programa para subir, visualizar y compartir recetas",
-            "enlace": "https://github.com/yisusMurcia/recipes",
+            "descripcion": "Usa la API para crear, modificar, ver y editar recetas",
+            "enlace": "https://github.com/yisusMurcia/recipes-web",
             "tecnologias": ["Java"],
             "img": "recipes.png"
         },
