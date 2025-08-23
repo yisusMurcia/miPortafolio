@@ -32,20 +32,21 @@ h2, h1{
 }
 
 a{
-  color: #f0f0f0;
   text-decoration: none;
 }
 
-
 .icon{
-  color: #f0f0f0;
   font-size: 1.4rem;
+}
+
+.icon, a{
   text-align: center;
+  color: #f0f0f0;
   padding:  0.5rem;
   border-radius: 2rem;
 }
 
-.icon:hover{
+.icon:hover, a:hover{
   color: #383838;
   background-color: #b8b8b8;
 }
@@ -80,4 +81,8 @@ img{
   align-items: center;
   gap: 0.2rem;
   font-size: 0.8rem;
+}
+
+div{
+  justify-items: center;
 }
