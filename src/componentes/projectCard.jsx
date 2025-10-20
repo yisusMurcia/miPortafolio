@@ -8,12 +8,9 @@ const ProjectCard = ({projectObj}) => {
             <h3>{projectObj.titulo}</h3>
             <p>{projectObj.descripcion}</p>
             {
-                typeof(projectObj.enlace) == "object"?
                 <div>
                     {Object.keys(projectObj.enlace).map(key=><a href={projectObj.enlace.key} target="_blank" rel="noopener noreferrer" key={key}>{key}</a>)}
                 </div>
-                :
-                <a href={projectObj.enlace} target="_blank" rel="noopener noreferrer">Ver proyecto</a>
             }
             <TechComponent techs={projectObj.tecnologias}/>
         </div>
