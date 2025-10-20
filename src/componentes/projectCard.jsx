@@ -9,7 +9,7 @@ const ProjectCard = ({projectObj}) => {
             <p>{projectObj.descripcion}</p>
             {
                 <div>
-                    {Object.keys(projectObj.enlace).map(key=><a href={projectObj.enlace.key} target="_blank" rel="noopener noreferrer" key={key}>{key}</a>)}
+                    {Object.keys(projectObj.enlace).map(key=><a href={projectObj.enlace[key]} target="_blank" key={key}>{key}</a>)}
                 </div>
             }
             <TechComponent techs={projectObj.tecnologias}/>
