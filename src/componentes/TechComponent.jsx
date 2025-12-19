@@ -8,6 +8,8 @@ const getItemEl = (tech)=>{//Obtener el icono de cada tecnología empleada
             return <i className="fa-brands fa-java icon"></i>;
         case "Python":
             return <i className="fa-brands fa-python icon"></i>;
+        default:
+            return <i className="fa-solid fa-code"></i>
     }
 }
 const TechComponent = ({techs}) => {

@@ -2,6 +2,15 @@ import { useState } from "react";
 
 const projects = [
   {
+    titulo: "Estructuras de datos",
+    descripcion: "Libreria con varias estructuras de datos en c++ listas para ser implementadas",
+    enlace: {
+        Github: "https://github.com/yisusMurcia/estructuras-de-datos"
+    },
+    tecnologias: ["C++"],
+    img: null
+  },
+  {
     titulo: "Recetas",
     descripcion: "Usa la API para crear, modificar, ver y editar recetas",
     enlace: {
