@@ -2,6 +2,15 @@ import { useState } from "react";
 
 const projects = [
   {
+    titulo: "Simulación de sistema electoral",
+    descripcion: "Programa optimizado para consulta, creación y simulación de elecciones presidenciales y a la alcaldía",
+    enlace: {
+        Github: "https://github.com/yisusMurcia/proyecto-ciencias"
+    },
+    tecnologias: ["C++"],
+    img: "electoralSystem.png"
+  },
+  {
     titulo: "Estructuras de datos",
     descripcion: "Libreria con varias estructuras de datos en c++ listas para ser implementadas",
     enlace: {
