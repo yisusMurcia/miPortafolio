@@ -2,6 +2,15 @@ import { useState } from "react";
 
 const projects = [
   {
+    titulo: "Algoritmos métodos numéricos",
+    descripcion: "Programa diseñado para resolver problemas de métodos numéricos, como interpolación y aproximación de funciones, entre otros",
+    enlace: {
+        Github: "https://github.com/yisusMurcia/algoritmos-metodos-numericos"
+    },
+    tecnologias: ["C++"],
+    img: null
+  },
+  {
     titulo: "Simulación de sistema electoral",
     descripcion: "Programa optimizado para consulta, creación y simulación de elecciones presidenciales y a la alcaldía",
     enlace: {

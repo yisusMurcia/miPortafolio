@@ -13,12 +13,6 @@ const AboutMeSection = () => {
                     Mi mayor miedo es la monotonía, por eso busco una carrera dinámica que me rete constantemente.
                 </p>
                 <img src="yisus.jpg" alt="yisus pic"/>
-                <span className="more-info">
-                Conoce más de mí:
-                <a href="https://bento.me/yisusm">
-                    <i class="fa-solid fa-address-card icon"></i>
-                </a>
-                </span>
             </aside>
         </section>
     );
