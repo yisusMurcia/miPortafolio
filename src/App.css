@@ -3,9 +3,14 @@
   padding: 0;
   box-sizing: border-box;
   color: var(--text);
+  --background: #0f0f0f;
+  --text: #f0f0f0;
+  --hover-shadow-background: #09fbff;
+  --hover-shadow-section: #d403e1;
+  --hover-background: #171717;
 }
 
-:root{
+*{
   font-family: "Lexend Exa", serif;
   /* Color variables */
   --background: #0f0f0f;
