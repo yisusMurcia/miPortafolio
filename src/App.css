@@ -2,12 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #f0f0f0;
-  font-family: "Lexend Exa", serif;
+  color: var(--text);
 }
 
+:root{
+  font-family: "Lexend Exa", serif;
+  /* Color variables */
+  --background: #0f0f0f;
+  --text: #f0f0f0;
+  --hover-shadow-background: #09fbff;
+  --hover-shadow-section: #d403e1;
+  --hover-background: #171717;}
+
 html{
-  background-color: #1c1c1c;
+  background: radial-gradient(circle, var(--hover-shadow-background), var(--background));
 }
 
 header{
@@ -18,9 +26,10 @@ header{
 }
 
 header, section{
-  background-color: #0f0f0f;
+  background-color: var(--background);
   margin: 0.8rem;
   border-radius: 0.8rem;
+  opacity: 0.9;
 }
 
 section{

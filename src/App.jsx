@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Header from './componentes/Header';
 import './App.css';
-import ProjectsSection from './componentes/projectsSection';
+import ProjectsSection from './componentes/ProjectsSection';
 import AboutMeSection from './componentes/AboutMeSection';
 import projects from './hooks/projects';
 

@@ -19,9 +19,9 @@ const ProjectsSection = ({projects}) => {
             <h2>Proyectos</h2>
             <p>Estos son algunos de los proyectos que he realizado.</p>
             <TechComponent techs={getTechs(projects)}/>
-            <section className='projects-section'>
+            <div className='projects-section'>
                 {projects.map(project => (<ProjectCard projectObj={project} />))}   
-            </section>
+            </div>
         </section>
     );
 }
