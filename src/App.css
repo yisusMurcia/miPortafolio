@@ -34,7 +34,7 @@ header, section{
   background-color: var(--background);
   margin: 0.8rem;
   border-radius: 0.8rem;
-  opacity: 0.9;
+  opacity: 0.80;
 }
 
 section{
