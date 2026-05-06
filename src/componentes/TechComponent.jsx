@@ -3,7 +3,7 @@ import React from 'react';
 const getItemEl = (tech)=>{//Obtener el icono de cada tecnología empleada
     switch(tech){
         case "All":
-            return <i class="fa-solid fa-list-ul"></i>
+            return <i class="fa-solid fa-list-ul icon"></i>
         case "React":
             return <i className="fa-brands fa-react icon"></i>;
         case "Java":
@@ -11,7 +11,7 @@ const getItemEl = (tech)=>{//Obtener el icono de cada tecnología empleada
         case "Python":
             return <i className="fa-brands fa-python icon"></i>;
         default:
-            return <i className="fa-solid fa-code"></i>
+            return <i className="fa-solid fa-code icon"></i>
     }
 }
 const TechComponent = ({techs, setTechFilter}) => {

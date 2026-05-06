@@ -25,6 +25,7 @@ html{
 
 header{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
@@ -38,7 +39,7 @@ header, section{
 }
 
 section{
-  padding: 0.3rem;
+  padding: 0.5rem;
 }
 
 h2, h1{
@@ -91,9 +92,9 @@ img{
 .icon-and-label{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-items: center;
   align-items: center;
-  gap: 0.2rem;
+  padding: 0.2rem 0.4rem;
   font-size: 0.8rem;
 }
 
