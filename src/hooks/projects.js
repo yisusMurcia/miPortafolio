@@ -2,6 +2,15 @@ import { useState } from "react";
 
 const projects = [
   {
+    titulo: "Solucionador de problemas de programación lineal",
+    descripcion: "Programa diseñado para resolver problemas de programación lineal utilizando el método simplex gran M o método gráfico, con una interfaz gráfica para facilitar su uso",
+    enlace: {
+        Github: "https://github.com/yisusMurcia/IO-methods"
+    },
+    tecnologias: ["Python"],
+    img: "linearProgramming.pngnpm run dev"
+  },
+  {
     titulo: "Algoritmos métodos numéricos",
     descripcion: "Programa diseñado para resolver problemas de métodos numéricos, como interpolación y aproximación de funciones, entre otros",
     enlace: {
