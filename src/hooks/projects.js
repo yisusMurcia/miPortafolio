@@ -2,6 +2,15 @@ import { useState } from "react";
 
 const projects = [
   {
+    titulo: "Simulador de asignacion de envios a conductores",
+    descripcion: "Programa diseñado para determinar la mejor asignación de envíos (con datos correspondientes a la ciudad de origen, destino y peso) para una serie de conductores, implementando un modelo de simulación de juegos con expectimax para encontrar el mejor camino y un modelo de regresión lineal previamente entrenado para estimar el tiempo de cada trayecto",
+    enlace: {
+        Github: "https://github.com/yisusMurcia/SmartRouting-IA-simulator"
+    },
+    tecnologias: ["Python"],
+    img: "shipAssigment.jpg"
+  },
+  {
     titulo: "Solucionador de problemas de programación lineal",
     descripcion: "Programa diseñado para resolver problemas de programación lineal utilizando el método simplex gran M o método gráfico, con una interfaz gráfica para facilitar su uso",
     enlace: {
