@@ -8,7 +8,7 @@ const projects = [
         Github: "https://github.com/yisusMurcia/SmartRouting-IA-simulator"
     },
     tecnologias: ["Python"],
-    img: "shipAssigment.jpg"
+    img: "shipAssigment.webp"
   },
   {
     titulo: "Solucionador de problemas de programación lineal",
@@ -17,7 +17,7 @@ const projects = [
         Github: "https://github.com/yisusMurcia/IO-methods"
     },
     tecnologias: ["Python"],
-    img: "linearProgramming.png"
+    img: "linearProgramming.webp"
   },
   {
     titulo: "Algoritmos métodos numéricos",
@@ -35,7 +35,7 @@ const projects = [
         Github: "https://github.com/yisusMurcia/proyecto-ciencias"
     },
     tecnologias: ["C++"],
-    img: "electoralSystem.png"
+    img: "electoralSystem.webp"
   },
   {
     titulo: "Estructuras de datos",
@@ -54,7 +54,7 @@ const projects = [
         frontend: "https://github.com/yisusMurcia/recipes-frontend"
     },
     tecnologias: ["Java"],
-    img: "recipes.png"
+    img: "recipes.webp"
   },
   {
     titulo: "Matrices y vectores",
@@ -66,49 +66,49 @@ const projects = [
     titulo: "Visor de imagen",
     descripcion: "Abre imagenes y modificalas a tu gusto",
     enlace: {GitHub: "https://github.com/yisusMurcia/visor-de-imagen"},
-    img: "visor-de-imagen.png",
+    img: "visor-de-imagen.webp",
     tecnologias: ["Java"]
   },
   {
     titulo: "Concesionario",
     descripcion: "Un proyecto en Java que simula un concesionario de carros se podrá crear y visualizar modelos de carros",
     enlace: {Github:"https://github.com/yisusMurcia/concesionario"},
-    img: "concesionario.png",
+    img: "concesionario.webp",
     tecnologias: ["Java"]
   },
   {
     titulo: "Frases",
     descripcion: "Un proyecto en react que tras iniciar sesión, muestra frases de diferentes autores",
     enlace: {GitHub: "https://yisusmurcia.github.io/quotes-pages/"},
-    img: "quotes-pages.png",
+    img: "quotes-pages.webp",
     tecnologias: ["React"]
   },
   {
     titulo: "Pinta figuras",
     descripcion: "Un programa para pintar diferentes figuras de dimensiones aleatorias al hacer click en alguna parte de la ventana y algunas funcionalidades más",
     enlace: {GitHub: "https://github.com/yisusMurcia/dibujoDeFiguras"},
-    img: "figures.png",
+    img: "figures.webp",
     tecnologias: ["Java"]
   },
   {
     titulo: "Triqui",
     enlace: {GitHub: "https://github.com/yisusMurcia/triqui"},
     descripcion: "Un código para jugar el famoso juego de triqui o tres en raya, ya sea para jugar con otra persona o contra el algoritmo.", 
-    img: "triqui.png",
+    img: "triqui.webp",
     tecnologias: ["Python"]
   },
   {
     titulo: "Menu",
     descripcion: "Un app para crear y editar un menu de comida",
     enlace: {GitHub: "https://github.com/yisusMurcia/menu"},
-    img: "menu.png",
+    img: "menu.webp",
     tecnologias: ["Java"]
   },
   {
     titulo: "Playlist",
     descripcion: "Un programa para crear y editar una playlist de musica",
     enlace: {GitHub: "https://github.com/yisusMurcia/playlist"},
-    img: "playlist.png",
+    img: "playlist.webp",
     tecnologias: ["Java"]
   }
 ];
