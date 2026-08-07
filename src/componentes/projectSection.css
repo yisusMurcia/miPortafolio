@@ -8,30 +8,23 @@
 .project-card{
     border-radius: 1rem;
     padding: 0.4rem;
-    background-size: cover;
-    background-image:
-        linear-gradient(to top, rgba(0, 0, 0, 0) 80%, rgb(59, 59, 59) 100%);
-    background-position: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background);
+    opacity: 1;
 }
-
-.project-card h2{
-    background-color: var(--background-with-opacity);
-    border-radius: 20px;
-    margin: 0.5em;
+  
+.project-card img{
+    width: 80%;
+    align-self: center;
+    border-radius: 0.8rem;
 }
-
-dialog{
-    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    padding: 1em;
-    justify-items: center;
-    background: var(--background-with-opacity);
-    backdrop-filter: blur(25px) saturate(190%) !important;
-    -webkit-backdrop-filter: blur(25px) saturate(190%);
-    border: 1px solid rgba(255, 255, 255, 0.05);
-    border-radius: 28px;
-    box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.3);
-    color: #f5f6f7;
-    padding: 20px;
+  
+.project-card h3{
+    text-align: center;
+}
+.project-card p{
+    font-size: 0.9rem;
 }
   
 .project-card:hover{
