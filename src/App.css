@@ -2,23 +2,17 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: var(--text);
-  --background: #0f0f0f;
-  --text: #f0f0f0;
-  --hover-shadow-background: #09fbff;
-  --hover-shadow-section: #d403e1;
-  --hover-background: #171717;
-}
-
-*{
   font-family: "Lexend Exa", serif;
+  color: var(--text);
   /* Color variables */
   --background: #0f0f0f;
   --text: #f0f0f0;
   --hover-shadow-background: #09fbff;
   --hover-shadow-section: #d403e1;
-  --hover-background: #171717;}
-
+  --hover-background: #383838;
+  --background-with-opacity: #0f0f0fA6;
+  --text-hover: #038688;
+}
 html{
   background: radial-gradient(circle, var(--hover-shadow-background), var(--background));
 }
@@ -32,14 +26,15 @@ header{
 }
 
 header, section{
-  background-color: var(--background);
   margin: 0.8rem;
-  border-radius: 0.8rem;
-  opacity: 0.80;
-}
-
-section{
-  padding: 0.5rem;
+  background: var(--background-with-opacity);
+  backdrop-filter: blur(25px) saturate(190%);
+  -webkit-backdrop-filter: blur(25px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 28px;
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.3);
+  color: #f5f6f7;
+  padding: 1em;
 }
 
 h2, h1{
@@ -48,6 +43,7 @@ h2, h1{
 
 a{
   text-decoration: none;
+  background-color: var(--background);
 }
 
 .icon{
@@ -61,9 +57,9 @@ a{
   border-radius: 2rem;
 }
 
-.icon:hover, a:hover{
-  color: #383838;
-  background-color: #b8b8b8;
+ .icon:hover, a:hover{
+  color: var(--text-hover);
+  background-color: var(--hover-background);
 }
 
 button{
@@ -96,8 +92,10 @@ img{
   align-items: center;
   padding: 0.2rem 0.4rem;
   font-size: 0.8rem;
+  border-radius: 1em;
 }
 
-div{
-  justify-items: center;
+#tech-filter .icon-and-label:hover{
+  color: var(--text-hover);
+  background-color: var(--hover-background);
 }

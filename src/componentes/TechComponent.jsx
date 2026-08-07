@@ -14,9 +14,9 @@ const getItemEl = (tech)=>{//Obtener el icono de cada tecnología empleada
             return <i className="fa-solid fa-code icon"></i>
     }
 }
-const TechComponent = ({techs, setTechFilter}) => {
+const TechComponent = ({techs, setTechFilter, id}) => {
     return (
-        <div className='techs-div'>
+        <div className='techs-div' id={id}>
             {techs.map((tech)=> 
                 <span className='icon-and-label' onClick={() => setTechFilter(tech)}>
                     {getItemEl(tech)}
