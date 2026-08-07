@@ -19,8 +19,7 @@ const ProjectsSection = ({projects}) => {
     return (
         <section>
             <h2>Proyectos</h2>
-            <p>Estos son algunos de los proyectos que he realizado.</p>
-            <TechComponent techs={getTechs(projects)} setTechFilter={setTechFilter}/>
+            <TechComponent id='tech-filter' techs={getTechs(projects)} setTechFilter={setTechFilter}/>
             <div className='projects-section'>
                 {projects.filter(project => techFiler === "All" || project.tecnologias.includes(techFiler)).map(project => (<ProjectCard projectObj={project} />))}   
             </div>

@@ -12,7 +12,7 @@ const AboutMeSection = () => {
                     pero también sé liderar equipos para alcanzar objetivos.
                     Mi mayor miedo es la monotonía, por eso busco una carrera dinámica que me rete constantemente.
                 </p>
-                <img src="yisus.webp" alt="yisus pic"/>
+                <img src= {import.meta.env.BASE_URL + '/yisus.webp'} alt="yisus pic"/>
             </aside>
         </section>
     );
